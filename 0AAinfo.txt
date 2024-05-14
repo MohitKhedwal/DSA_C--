@@ -1,0 +1,10 @@
+0=>Normal
+1=>Array
+2=>String
+3=>Stack
+4=>Queue
+5=>Linked List
+6=>tree
+7=>graph
+8=>DP
+9=>bit
