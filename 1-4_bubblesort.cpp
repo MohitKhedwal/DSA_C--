@@ -10,8 +10,8 @@ for(int i=0;i<n;i++){
 }
 int counter=1;
 // while(counter<n){
-    for(int j=1;j<n;j++){ // checks number of iterations should be less than n
-    for(int i=0;i<n-counter;i++){ // as if sloves  last so it should run till counter only
+    for(int j=0;j<n-1;j++){ // checks number of iterations should be less than n
+    for(int i=0;i<n-j-counter;i++){ // as if sloves  last so it should run till counter only
      if(array[i]>array[i+1]){
         int temp=array[i+1];
         array[i+1]=array[i];
